@@ -1,0 +1,1534 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- color of address bar in mobile browser -->
+  <meta name="theme-color" content="#F5C332">
+  <!-- favicon  -->
+  <link rel="shortcut icon" href="img/ui/logo.ico" type="image/x-icon">
+  <!-- font awesome css -->
+  <link rel="stylesheet" href="css/plugins/font-awesome.min.css">
+  <!-- bootstrap css -->
+  <link rel="stylesheet" href="css/plugins/bootstrap.min.css">
+  <!-- swiper css -->
+  <link rel="stylesheet" href="css/plugins/swiper.min.css">
+  <!-- datepicker css -->
+  <link rel="stylesheet" href="css/plugins/datepicker.css">
+  <!-- mapbox css -->
+  <link href="css/plugins/mapbox-style.css" rel='stylesheet'>
+  <!-- fancybox css -->
+  <link rel="stylesheet" href="css/plugins/fancybox.min.css">
+  <!-- SipNBite css -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- page title -->
+  <title>SipNBite</title>
+</head>
+
+<body>
+  <!-- app wrapper -->
+  <div class="sb-app">
+    <!-- preloader -->
+    <div class="sb-preloader">
+      <div class="sb-preloader-bg"></div>
+      <div class="sb-preloader-body">
+        <div class="sb-loading">
+          <div class="sb-percent"><span class="sb-preloader-number" data-count="101">00</span><span>%</span></div>
+        </div>
+        <div class="sb-loading-bar">
+          <div class="sb-bar"></div>
+        </div>
+      </div>
+    </div>
+    <!-- preloader end -->
+    <!-- click effect -->
+    <div class="sb-click-effect"></div>
+    <!-- loader -->
+    <div class="sb-load"></div>
+    <!-- top bar -->
+    <div class="sb-top-bar-frame">
+      <div class="sb-top-bar-bg"></div>
+      <div class="container">
+        <div class="sb-top-bar">
+          <a href="index.html" class="sb-logo-frame">
+            <!-- logo img -->
+            <img src="img/ui/logo.png" alt="SipNBite">
+          </a>
+          <!-- menu -->
+          <div class="sb-right-side">
+            <nav id="sb-dynamic-menu" class="sb-menu-transition">
+              <ul class="sb-navigation">
+                <li>
+                  <a href="index.html">Home</a>
+                </li>
+                <li class="sb-active">
+                  <a href="menu.html">Menu</a>
+                </li>
+                <li>
+                  <a href="shop.html">Shop</a>
+                </li>
+                <li>
+                  <a href="about.html">About</a>
+                </li>
+                <li>
+                  <a href="contact.html">Contact</a>
+                </li>
+                <li class="sb-has-children">
+                  <a href="">Know More</a>
+                  <ul>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="reservation.html">Reservation</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </nav>
+            <div class="sb-buttons-frame">
+              <!-- button -->
+              <div class="sb-btn sb-btn-2 sb-btn-gray sb-btn-icon sb-m-0 sb-btn-cart">
+                <span class="sb-icon">
+                  <img src="img/ui/icons/cart.svg" alt="icon">
+                </span>
+                <i class="sb-cart-number">2</i>
+              </div>
+              <!-- button end -->
+              <!-- menu btn -->
+              <div class="sb-menu-btn"><span></span></div>
+              <!-- info btn -->
+              <div class="sb-info-btn"><span></span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- info bar -->
+      <div class="sb-info-bar">
+        <div class="sb-infobar-content">
+          <div class="sb-ib-title-frame sb-mb-30">
+            <h4>Contact</h4><i class="fas fa-arrow-down"></i>
+          </div>
+          <ul class="sb-list sb-mb-30">
+            <li><b>Address:</b><span>25 Waverley Rd, Malvern East</span></li>
+            <li><b>Working hours:</b><span> 11:00am - 01:30am</span></li>
+            <li><b>Phone:</b><span> 03 9563 5738</span></li>
+            <li><b>Email:</b><span>contact@sipnbite.com</span></li>
+          </ul>
+        </div>
+        <div class="sb-info-bar-footer">
+          <ul class="sb-social">
+            <li><a href="#."><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#."><i class="fab fa-instagram"></i></a></li>
+            <li><a href="#."><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="#."><i class="fab fa-youtube"></i></a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- info bar end -->
+      <!-- minicart -->
+      <div class="sb-minicart">
+        <div class="sb-minicart-content">
+          <div class="sb-ib-title-frame sb-mb-30">
+            <h4>Your order.</h4><i class="fas fa-arrow-down"></i>
+          </div>
+          <a href="product.html" class="sb-menu-item sb-menu-item-sm sb-mb-15">
+            <div class="sb-cover-frame">
+              <img src="img/menu/kebabs/ck.jpg" alt="product">
+            </div>
+            <div class="sb-card-tp">
+              <h4 class="sb-card-title">Chicken Kebab</h4>
+              <div class="sb-price"><sub>$</sub> 10.99</div>
+            </div>
+          </a>
+          <a href="product.html" class="sb-menu-item sb-menu-item-sm sb-mb-15">
+            <div class="sb-cover-frame">
+              <img src="img/menu/vegetarian/fw.jpg" alt="product">
+            </div>
+            <div class="sb-card-tp">
+              <h4 class="sb-card-title">Falafel</h4>
+              <div class="sb-price"><sub>$</sub> 10.99</div>
+            </div>
+          </a>   
+        </div>
+        <div class="sb-minicart-footer">
+          <!-- button -->
+          <a href="cart.html" class="sb-btn sb-btn-gray sb-btn-text">
+            <span>View order</span>
+          </a>
+          <!-- button end -->
+          <!-- button -->
+          <a href="checkout.html" class="sb-btn sb-btn-text">
+            <span>Checkout</span>
+          </a>
+          <!-- button end -->
+        </div>
+      </div>
+      <!-- minicart end -->
+    </div>
+    <!-- top bar end -->
+
+    <!-- dynamic content -->
+    <div id="sb-dynamic-content" class="sb-transition-fade">
+
+      <!-- banner -->
+      <section class="sb-banner sb-banner-xs sb-banner-color">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <!-- main title -->
+              <div class="sb-main-title-frame">
+                <div class="sb-main-title">
+                  <h1 class="sb-h2">SipNBite Menu</h1>
+                  <ul class="sb-breadcrumbs">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#.">Menu</a></li>
+                  </ul>
+                </div>
+              </div>
+              <!-- main title end -->
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- banner end -->
+
+      <!-- menu section 1 -->
+      <section class="sb-menu-section sb-p-90-60">
+        <div class="sb-bg-1">
+          <div></div>
+        </div>
+        <div class="container">
+          <!-- filter -->
+          <div class="sb-filter mb-30">
+            <a href="#." data-filter="*" class="sb-filter-link sb-active">All dishes</a>
+            <a href="#." data-filter=".deals" class="sb-filter-link">Deals</a>
+            <a href="#." data-filter=".kebabs" class="sb-filter-link">Kebabs</a>
+            <a href="#." data-filter=".sides" class="sb-filter-link">Sides</a>
+            <a href="#." data-filter=".soups" class="sb-filter-link">Soups</a>
+            <a href="#." data-filter=".pides" class="sb-filter-link">Pides</a>
+            <a href="#." data-filter=".mains" class="sb-filter-link">Mains</a>
+            <a href="#." data-filter=".vegetarian" class="sb-filter-link">Vegetarian</a>
+            <a href="#." data-filter=".drinks-desserts" class="sb-filter-link">Drinks/Desserts</a>
+
+          </div>
+          <!-- filter end -->
+          <div class="sb-masonry-grid">
+            <div class="sb-grid-sizer"></div>
+            <!-- DEALS start -->
+            <div class="sb-grid-item sb-item-25 deals">
+              <a data-fancybox="menu" data-no-swup href="img/menu/deals/gcd.jpg" class="sb-menu-item sb-mb-30">
+                <div class="sb-cover-frame">
+                  <img src="img/menu/deals/gcd.jpg" alt="product">
+                </div>
+                <div class="sb-card-tp">
+                  <h4 class="sb-card-title">Giant Combo Deal</h4>
+                  <div class="sb-price"><sub>$</sub> 15.00</div>
+                </div>
+                <div class="sb-description">
+                  <p class="sb-text sb-mb-15"><span>1 x kebab, regular chips and can of drink</span>.</p>
+                  <ul class="sb-stars">
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><span>(4 ratings)</span></li>
+                  </ul>
+                </div>
+              </a>
+            </div>
+            <div class="sb-grid-item sb-item-25 deals">
+              <a data-fancybox="menu" data-no-swup href="img/menu/deals/tc.jpg" class="sb-menu-item sb-mb-30">
+                <div class="sb-cover-frame">
+                  <img src="img/menu/deals/tc.jpg" alt="product">
+                </div>
+                <div class="sb-card-tp">
+                  <h4 class="sb-card-title">Triple Combo</h4>
+                  <div class="sb-price"><sub>$</sub> 40.00</div>
+                </div>
+                <div class="sb-description">
+                  <p class="sb-text sb-mb-15"><span>3 x kebabs, 2 x regular chips and 1.25L drink</span>.</p>
+                  <ul class="sb-stars sb-unrated">
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><span>Unrated</span></li>
+                  </ul>
+                </div>
+              </a>
+            </div>
+            <div class="sb-grid-item sb-item-25 deals">
+              <a data-fancybox="menu" data-no-swup href="img/menu/deals/6nc.jpg" class="sb-menu-item sb-mb-30">
+                <div class="sb-cover-frame">
+                  <img src="img/menu/deals/6nc.jpg" alt="product">
+                </div>
+                <div class="sb-card-tp">
+                  <h4 class="sb-card-title">6 Nuggets Combo</h4>
+                  <div class="sb-price"><sub>$</sub> 10.90</div>
+                </div>
+                <div class="sb-description">
+                  <p class="sb-text sb-mb-15"><span>6 nuggets, small chips and can of drink</span>.</p>
+                  <ul class="sb-stars">
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><span>(6 ratings)</span></li>
+                  </ul>
+                </div>
+              </a>
+            </div>
+            <div class="sb-grid-item sb-item-25 deals">
+              <a data-fancybox="menu" data-no-swup href="img/menu/deals/12nc.jpg" class="sb-menu-item sb-mb-30">
+                <div class="sb-cover-frame">
+                  <img src="img/menu/deals/12nc.jpg" alt="product">
+                </div>
+                <div class="sb-card-tp">
+                  <h4 class="sb-card-title">12 Nuggets Combo</h4>
+                  <div class="sb-price"><sub>$</sub> 14.90</div>
+                </div>
+                <div class="sb-description">
+                  <p class="sb-text sb-mb-15"><span>12 nuggets, small chips and can of drink</span>.</p>
+                  <ul class="sb-stars">
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><span>(14 ratings)</span></li>
+                  </ul>
+                </div>
+              </a>
+            </div>
+            <div class="sb-grid-item sb-item-25 deals">
+              <a data-fancybox="menu" data-no-swup href="img/menu/deals/cs.jpg" class="sb-menu-item sb-mb-30">
+                <div class="sb-cover-frame">
+                  <img src="img/menu/deals/cs.jpg" alt="product">
+                </div>
+                <div class="sb-card-tp">
+                  <h4 class="sb-card-title">6 Chicken Strips Combo</h4>
+                  <div class="sb-price"><sub>$</sub> 12.90</div>
+                </div>
+                <div class="sb-description">
+                  <p class="sb-text sb-mb-15"><span>6 chicken strips, small chips and can of drink.</span>.</p>
+                  <ul class="sb-stars">
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li class="sb-empty"><i class="fas fa-star"></i></li>
+                    <li class="sb-empty"><i class="fas fa-star"></i></li>
+                    <li><span>(1 ratings)</span></li>
+                  </ul>
+                </div>
+              </a>
+            </div>
+            <div class="sb-grid-item sb-item-25 deals">
+              <a data-fancybox="menu" data-no-swup href="img/menu/deals/csc.jpg" class="sb-menu-item sb-mb-30">
+                <div class="sb-cover-frame">
+                  <img src="img/menu/deals/csc.jpg" alt="product">
+                </div>
+                <div class="sb-card-tp">
+                  <h4 class="sb-card-title">12 Chicken Strips Combo</h4>
+                  <div class="sb-price"><sub>$</sub> 16.90</div>
+                </div>
+                <div class="sb-description">
+                  <p class="sb-text sb-mb-15"><span>12 chicken strips, small chips and can of drink</span>.</p>
+                  <ul class="sb-stars sb-unrated">
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><span>Unrated</span></li>
+                  </ul>
+                </div>
+              </a>
+            </div>
+            <div class="sb-grid-item sb-item-25 deals">
+              <a data-fancybox="menu" data-no-swup href="img/menu/deals/gb.jpg" class="sb-menu-item sb-mb-30">
+                <div class="sb-cover-frame">
+                  <img src="img/menu/deals/gb.jpg" alt="product">
+                </div>
+                <div class="sb-card-tp">
+                  <h4 class="sb-card-title">Garlic Bread Combo</h4>
+                  <div class="sb-price"><sub>$</sub> 5.00</div>
+                </div>
+                <div class="sb-description">
+                  <p class="sb-text sb-mb-15"><span>large garlic bread and can of drink</span>.</br></br></p>
+                  <ul class="sb-stars">
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><span>(8 ratings)</span></li>
+                  </ul>
+                </div>
+              </a>
+            </div>
+            <div class="sb-grid-item sb-item-25 deals">
+              <a data-fancybox="menu" data-no-swup href="img/menu/deals/ds.jpg" class="sb-menu-item sb-mb-30">
+                <div class="sb-cover-frame">
+                  <img src="img/menu/deals/ds.jpg" alt="product">
+                </div>
+                <div class="sb-card-tp">
+                  <h4 class="sb-card-title">Dim Sim Combo</h4>
+                  <div class="sb-price"><sub>$</sub> 11.90</div>
+                </div>
+                <div class="sb-description">
+                  <p class="sb-text sb-mb-15"><span>5 dim sims, small chips and can of drink</span>.</p>
+                  <ul class="sb-stars">
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><span>(1 ratings)</span></li>
+                  </ul>
+                </div>
+              </a>
+            </div>
+            <div class="sb-grid-item sb-item-25 deals">
+              <a data-fancybox="menu" data-no-swup href="img/menu/deals/mar.jpg" class="sb-menu-item sb-mb-30">
+                <div class="sb-cover-frame">
+                  <img src="img/menu/deals/mar.jpg" alt="product">
+                </div>
+                <div class="sb-card-tp">
+                  <h4 class="sb-card-title">Meat and Rice Comobo</h4>
+                  <div class="sb-price"><sub>$</sub> 17.90</div>
+                </div>
+                <div class="sb-description">
+                  <p class="sb-text sb-mb-15"><span>basmati rice served with meat along with optional extra
+                      toppings</span>.</p>
+                  <ul class="sb-stars">
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li class="sb-empty"><i class="fas fa-star"></i></li>
+                    <li><span>(9 ratings)</span></li>
+                  </ul>
+                </div>
+              </a>
+            </div>
+            <!-- DEALS end -->
+
+            <!-- KEBABS start-->
+            <div class="sb-grid-item sb-item-25 kebabs">
+              <a data-fancybox="menu" data-no-swup href="img/menu/kebabs/lk.jpg" class="sb-menu-item sb-mb-30">
+                <div class="sb-cover-frame">
+                  <img src="img/menu/kebabs/lk.jpg" alt="product">
+                </div>
+                <div class="sb-card-tp">
+                  <h4 class="sb-card-title">Lamb Kebab</h4>
+                  <div class="sb-price"><sub>$</sub> 10.99</div>
+                </div>
+                <div class="sb-description">
+                  <ul class="sb-stars">
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><span>(5 ratings)</span></li>
+                  </ul>
+                </div>
+              </a>
+            </div>
+            <div class="sb-grid-item sb-item-25 kebabs">
+              <a data-fancybox="menu" data-no-swup href="img/menu/kebabs/ck.jpg" class="sb-menu-item sb-mb-30">
+                <div class="sb-cover-frame">
+                  <img src="img/menu/kebabs/ck.jpg" alt="product">
+                </div>
+                <div class="sb-card-tp">
+                  <h4 class="sb-card-title">Chicken Kebab</h4>
+                  <div class="sb-price"><sub>$</sub> 10.99</div>
+                </div>
+                <div class="sb-description">
+                  <ul class="sb-stars">
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><span>(7 ratings)</span></li>
+                  </ul>
+                </div>
+              </a>
+            </div>
+            <div class="sb-grid-item sb-item-25 kebabs">
+              <a data-fancybox="menu" data-no-swup href="img/menu/kebabs/mk.jpg" class="sb-menu-item sb-mb-30">
+                <div class="sb-cover-frame">
+                  <img src="img/menu/kebabs/mk.jpg" alt="product">
+                </div>
+                <div class="sb-card-tp">
+                  <h4 class="sb-card-title">Mixed Kebab</h4>
+                  <div class="sb-price"><sub>$</sub> 10.99</div>
+                </div>
+                <div class="sb-description">
+                  <ul class="sb-stars">
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><span>(4 ratings)</span></li>
+                  </ul>
+                </div>
+              </a>
+            </div>
+            <div class="sb-grid-item sb-item-25 kebabs">
+              <a data-fancybox="menu" data-no-swup href="img/menu/kebabs/csw.jpg" class="sb-menu-item sb-mb-30">
+                <div class="sb-cover-frame">
+                  <img src="img/menu/kebabs/csw.jpg" alt="product">
+                </div>
+                <div class="sb-card-tp">
+                  <h4 class="sb-card-title">Chicken Strip Wrap</h4>
+                  <div class="sb-price"><sub>$</sub> 10.99</div>
+                </div>
+                <div class="sb-description">
+                  <ul class="sb-stars">
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li class="sb-empty"><i class="fas fa-star"></i></li>
+                    <li><span>(9 ratings)</span></li>
+                  </ul>
+                </div>
+              </a>
+            </div>
+            <div class="sb-grid-item sb-item-25 kebabs">
+              <a data-fancybox="menu" data-no-swup href="img/menu/kebabs/fw.jpg" class="sb-menu-item sb-mb-30">
+                <div class="sb-cover-frame">
+                  <img src="img/menu/kebabs/fw.jpg" alt="product">
+                </div>
+                <div class="sb-card-tp">
+                  <h4 class="sb-card-title">Fish Wrap</h4>
+                  <div class="sb-price"><sub>$</sub> 10.99</div>
+                </div>
+                <div class="sb-description">
+                  <ul class="sb-stars">
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><span>(2 ratings)</span></li>
+                  </ul>
+                </div>
+              </a>
+            </div>
+            <div class="sb-grid-item sb-item-25 kebabs">
+              <a data-fancybox="menu" data-no-swup href="img/menu/kebabs/hw.jpg" class="sb-menu-item sb-mb-30">
+                <div class="sb-cover-frame">
+                  <img src="img/menu/kebabs/hw.jpg" alt="product">
+                </div>
+                <div class="sb-card-tp">
+                  <h4 class="sb-card-title">HSP Wrap</h4>
+                  <div class="sb-price"><sub>$</sub> 12.99</div>
+                </div>
+                <div class="sb-description">
+                  <ul class="sb-stars">
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><span>(11 ratings)</span></li>
+                  </ul>
+                </div>
+              </a>
+            </div>
+            <div class="sb-grid-item sb-item-25 kebabs">
+              <a data-fancybox="menu" data-no-swup href="img/menu/kebabs/cok.jpg" class="sb-menu-item sb-mb-30">
+                <div class="sb-cover-frame">
+                  <img src="img/menu/kebabs/cok.jpg" alt="product">
+                </div>
+                <div class="sb-card-tp">
+                  <h4 class="sb-card-title">Chicken Open Kebab</h4>
+                  <div class="sb-price"><sub>$</sub> 12.59</div>
+                </div>
+                <div class="sb-description">
+                  <ul class="sb-stars">
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li class="sb-empty"><i class="fas fa-star"></i></li>
+                    <li class="sb-empty"><i class="fas fa-star"></i></li>
+                    <li><span>(1 ratings)</span></li>
+                  </ul>
+                </div>
+              </a>
+            </div>
+            <div class="sb-grid-item sb-item-25 kebabs">
+              <a data-fancybox="menu" data-no-swup href="img/menu/kebabs/lok.jpg" class="sb-menu-item sb-mb-30">
+                <div class="sb-cover-frame">
+                  <img src="img/menu/kebabs/lok.jpg" alt="product">
+                </div>
+                <div class="sb-card-tp">
+                  <h4 class="sb-card-title">Lamb Open Kebab</h4>
+                  <div class="sb-price"><sub>$</sub> 12.59</div>
+                </div>
+                <div class="sb-description">
+                  <ul class="sb-stars">
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><span>(12 ratings)</span></li>
+                  </ul>
+                </div>
+              </a>
+            </div>
+            <div class="sb-grid-item sb-item-25 kebabs">
+              <a data-fancybox="menu" data-no-swup href="img/menu/kebabs/mok.jpg" class="sb-menu-item sb-mb-30">
+                <div class="sb-cover-frame">
+                  <img src="img/menu/kebabs/mok.jpg" alt="product">
+                </div>
+                <div class="sb-card-tp">
+                  <h4 class="sb-card-title">Mixed Open Kebab</h4>
+                  <div class="sb-price"><sub>$</sub> 12.59</div>
+                </div>
+                <div class="sb-description">
+                  <ul class="sb-stars">
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><span>(9 ratings)</span></li>
+                  </ul>
+                </div>
+              </a>
+            </div>
+            <!-- KEBABS end -->
+
+            <!-- SIDES strat-->
+            <div class="sb-grid-item sb-item-25 sides">
+              <a data-fancybox="menu" data-no-swup href="img/menu/sides/vsr.jpg" class="sb-menu-item sb-mb-30">
+                <div class="sb-cover-frame">
+                  <img src="img/menu/sides/vsr.jpg" alt="product">
+                </div>
+                <div class="sb-card-tp">
+                  <h4 class="sb-card-title">Vege Spring Roll</h4>
+                  <div class="sb-price"><sub></sub> </div>
+                </div>
+                <div class="sb-description">
+                  <p class="sb-text sb-mb-15"><span>6pcs-$ 6.90</br>12pcs-$ 12.90</br><br></span></p>
+                  <ul class="sb-stars">
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><span>(2 ratings)</span></li>
+                  </ul>
+                </div>
+              </a>
+            </div>
+            <div class="sb-grid-item sb-item-25 sides">
+              <a data-fancybox="menu" data-no-swup href="img/menu/sides/or.jpg" class="sb-menu-item sb-mb-30">
+                <div class="sb-cover-frame">
+                  <img src="img/menu/sides/or.jpg" alt="product">
+                </div>
+                <div class="sb-card-tp">
+                  <h4 class="sb-card-title">Onion Rings</h4>
+                  <div class="sb-price"><sub></sub> </div>
+                </div>
+                <div class="sb-description">
+                  <p class="sb-text sb-mb-15"><span>regular-$ 6.90</br>large-$ 9.90</br><br></span></p>
+                  <ul class="sb-stars">
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><span>(1 ratings)</span></li>
+                  </ul>
+                </div>
+              </a>
+            </div>
+            <div class="sb-grid-item sb-item-25 sides">
+              <a data-fancybox="menu" data-no-swup href="img/menu/sides/gb.jpg" class="sb-menu-item sb-mb-30">
+                <div class="sb-cover-frame">
+                  <img src="img/menu/sides/gb.jpg" alt="product">
+                </div>
+                <div class="sb-card-tp">
+                  <h4 class="sb-card-title">Garlic Bread</h4>
+                  <div class="sb-price"><sub></sub> </div>
+                </div>
+                <div class="sb-description">
+                  <p class="sb-text sb-mb-15"><span>1pcs-$ 3.50</br>2pcs-$ 5.00</br><br></span></p>
+                  <ul class="sb-stars sb-unrated">
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><span>Unrated</span></li>
+                  </ul>
+                </div>
+              </a>
+            </div>
+            <div class="sb-grid-item sb-item-25 sides">
+              <a data-fancybox="menu" data-no-swup href="img/menu/sides/cn.jpg" class="sb-menu-item sb-mb-30">
+                <div class="sb-cover-frame">
+                  <img src="img/menu/sides/cn.jpg" alt="product">
+                </div>
+                <div class="sb-card-tp">
+                  <h4 class="sb-card-title">Chicken Nuggets</h4>
+                  <div class="sb-price"><sub></sub> </div>
+                </div>
+                <div class="sb-description">
+                  <p class="sb-text sb-mb-15"><span>6pcs-$ 4.90</br>12pcs-$ 9.90</br><br></span></p>
+                  <ul class="sb-stars sb-unrated">
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><span>Unrated</span></li>
+                  </ul>
+                </div>
+              </a>
+            </div>
+            <div class="sb-grid-item sb-item-25 sides">
+              <a data-fancybox="menu" data-no-swup href="img/menu/sides/cs.jpg" class="sb-menu-item sb-mb-30">
+                <div class="sb-cover-frame">
+                  <img src="img/menu/sides/cs.jpg" alt="product">
+                </div>
+                <div class="sb-card-tp">
+                  <h4 class="sb-card-title">Chicken Strips</h4>
+                  <div class="sb-price"><sub></sub> </div>
+                </div>
+                <div class="sb-description">
+                  <p class="sb-text sb-mb-15"><span>4pcs-$ 6.90</br>12pcs-$ 11.90</br><br></span></p>
+                  <ul class="sb-stars">
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><span>(1 ratings)</span></li>
+                  </ul>
+                </div>
+              </a>
+            </div>
+            <div class="sb-grid-item sb-item-25 sides">
+              <a data-fancybox="menu" data-no-swup href="img/menu/sides/pc.jpg" class="sb-menu-item sb-mb-30">
+                <div class="sb-cover-frame">
+                  <img src="img/menu/sides/pc.jpg" alt="product">
+                </div>
+                <div class="sb-card-tp">
+                  <h4 class="sb-card-title">Popcorn Chicken</h4>
+                  <div class="sb-price"><sub></sub> </div>
+                </div>
+                <div class="sb-description">
+                  <p class="sb-text sb-mb-15"><span>small-$ 5.90</br>large-$ 10.90</br><br></span></p>
+                  <ul class="sb-stars">
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li class="sb-empty"><i class="fas fa-star"></i></li>
+                    <li><span>(3 ratings)</span></li>
+                  </ul>
+                </div>
+              </a>
+            </div>
+            <div class="sb-grid-item sb-item-25 sides">
+              <a data-fancybox="menu" data-no-swup href="img/menu/sides/gcb.jpg" class="sb-menu-item sb-mb-30">
+                <div class="sb-cover-frame">
+                  <img src="img/menu/sides/gcb.jpg" alt="product">
+                </div>
+                <div class="sb-card-tp">
+                  <h4 class="sb-card-title">Garlic Chicken Balls</h4>
+                  <div class="sb-price"><sub></sub> </div>
+                </div>
+                <div class="sb-description">
+                  <p class="sb-text sb-mb-15"><span>4pcs-$ 5.90</br>8pcs-$ 10.90</br>20pcs-$ 24.90</span></p>
+                  <ul class="sb-stars">
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><span>(3 ratings)</span></li>
+                  </ul>
+                </div>
+              </a>
+            </div>
+            <div class="sb-grid-item sb-item-25 sides">
+              <a data-fancybox="menu" data-no-swup href="img/menu/sides/cw.jpg" class="sb-menu-item sb-mb-30">
+                <div class="sb-cover-frame">
+                  <img src="img/menu/sides/cw.jpg" alt="product">
+                </div>
+                <div class="sb-card-tp">
+                  <h4 class="sb-card-title">Chicken Wings</h4>
+                  <div class="sb-price"><sub></sub> </div>
+                </div>
+                <div class="sb-description">
+                  <p class="sb-text sb-mb-15"><span>3pcs-$ 6.90</br>6pcs-$ 19.90</br>12pcs-$ 25.90</span></p>
+                  <ul class="sb-stars">
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><span>(1 ratings)</span></li>
+                  </ul>
+                </div>
+              </a>
+            </div>
+            <div class="sb-grid-item sb-item-25 sides">
+              <a data-fancybox="menu" data-no-swup href="img/menu/sides/ds.jpg" class="sb-menu-item sb-mb-30">
+                <div class="sb-cover-frame">
+                  <img src="img/menu/sides/ds.jpg" alt="product">
+                </div>
+                <div class="sb-card-tp">
+                  <h4 class="sb-card-title">Dim Sim</h4>
+                  <div class="sb-price"><sub></sub> </div>
+                </div>
+                <div class="sb-description">
+                  <p class="sb-text sb-mb-15"><span>2pcs-$ 3.00</br>4pcs-$ 5.90</br><br></span></p>
+                  <ul class="sb-stars">
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><span>(2 ratings)</span></li>
+                  </ul>
+                </div>
+              </a>
+            </div>
+            <div class="sb-grid-item sb-item-25 sides">
+              <a data-fancybox="menu" data-no-swup href="img/menu/sides/fac.jpg" class="sb-menu-item sb-mb-30">
+                <div class="sb-cover-frame">
+                  <img src="img/menu/sides/fac.jpg" alt="product">
+                </div>
+                <div class="sb-card-tp">
+                  <h4 class="sb-card-title">Fish N Chips</h4>
+                  <div class="sb-price"><sub>$</sub> 9.50</div>
+                </div>
+                <div class="sb-description">
+                  <p class="sb-text sb-mb-15"><span>battered fish with chips<br><br><br></span></p>
+                  <ul class="sb-stars">
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li class="sb-empty"><i class="fas fa-star"></i></li>
+                    <li class="sb-empty"><i class="fas fa-star"></i></li>
+                    <li><span>(4 ratings)</span></li>
+                  </ul>
+                </div>
+              </a>
+            </div>
+            <div class="sb-grid-item sb-item-25 sides">
+              <a data-fancybox="menu" data-no-swup href="img/menu/sides/pc2.jpg" class="sb-menu-item sb-mb-30">
+                <div class="sb-cover-frame">
+                  <img src="img/menu/sides/pc2.jpg" alt="product">
+                </div>
+                <div class="sb-card-tp">
+                  <h4 class="sb-card-title">Potato Cake</h4>
+                  <div class="sb-price"><sub>$</sub> 1.20</div>
+                </div>
+                <div class="sb-description">
+                  <p class="sb-text sb-mb-15"><span><br></br><br></span></p>
+                  <ul class="sb-stars">
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><span>(1 ratings)</span></li>
+                  </ul>
+                </div>
+              </a>
+            </div>
+            <div class="sb-grid-item sb-item-25 sides">
+              <a data-fancybox="menu" data-no-swup href="img/menu/sides/hb.jpg" class="sb-menu-item sb-mb-30">
+                <div class="sb-cover-frame">
+                  <img src="img/menu/sides/hb.jpg" alt="product">
+                </div>
+                <div class="sb-card-tp">
+                  <h4 class="sb-card-title">Hash Browns</h4>
+                  <div class="sb-price"><sub>$</sub> 1.00</div>
+                </div>
+                <div class="sb-description">
+                  <p class="sb-text sb-mb-15"><span><br></br><br></span></p>
+                  <ul class="sb-stars">
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><span>(1 ratings)</span></li>
+                  </ul>
+                </div>
+              </a>
+            </div>
+            <!-- SIDES end-->
+
+            <!-- SOUPS strat-->
+            <div class="sb-grid-item sb-item-25 soups">
+              <a data-fancybox="menu" data-no-swup href="img/menu/soups/mcns.jpg" class="sb-menu-item sb-mb-30">
+                <div class="sb-cover-frame">
+                  <img src="img/menu/soups/mcns.jpg" alt="product">
+                </div>
+                <div class="sb-card-tp">
+                  <h4 class="sb-card-title">Miso Chicken N Corns</h4>
+                  <div class="sb-price"><sub></sub></div>
+                </div>
+                <div class="sb-description">
+                  <p class="sb-text sb-mb-15"><span>regular- $ 5.99 <br> large- $ 9.99</span></p>
+                  <ul class="sb-stars">
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li class="sb-empty"><i class="fas fa-star"></i></li>
+                    <li><span>(4 ratings)</span></li>
+                  </ul>
+                </div>
+              </a>
+            </div>
+            <div class="sb-grid-item sb-item-25 soups">
+              <a data-fancybox="menu" data-no-swup href="img/menu/soups/ics.jpg" class="sb-menu-item sb-mb-30">
+                <div class="sb-cover-frame">
+                  <img src="img/menu/soups/ics.jpg" alt="product">
+                </div>
+                <div class="sb-card-tp">
+                  <h4 class="sb-card-title">Italian Chicken Soup</h4>
+                  <div class="sb-price"><sub></sub></div>
+                </div>
+                <div class="sb-description">
+                  <p class="sb-text sb-mb-15"><span>regular- $ 5.99 <br> large- $ 9.99</span></p>
+                  <ul class="sb-stars">
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li class="sb-empty"><i class="fas fa-star"></i></li>
+                    <li><span>(3 ratings)</span></li>
+                  </ul>
+                </div>
+              </a>
+            </div>
+            <div class="sb-grid-item sb-item-25 soups">
+              <a data-fancybox="menu" data-no-swup href="img/menu/soups/ps.jpg" class="sb-menu-item sb-mb-30">
+                <div class="sb-cover-frame">
+                  <img src="img/menu/soups/ps.jpg" alt="product">
+                </div>
+                <div class="sb-card-tp">
+                  <h4 class="sb-card-title">Pumpkin Soup</h4>
+                  <div class="sb-price"><sub></sub></div>
+                </div>
+                <div class="sb-description">
+                  <p class="sb-text sb-mb-15"><span>regular- $ 5.99 <br> large- $ 9.99</span></p>
+                  <ul class="sb-stars">
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><span>(2 ratings)</span></li>
+                  </ul>
+                </div>
+              </a>
+            </div>
+            <div class="sb-grid-item sb-item-25 soups">
+              <a data-fancybox="menu" data-no-swup href="img/menu/soups/tcs.jpg" class="sb-menu-item sb-mb-30">
+                <div class="sb-cover-frame">
+                  <img src="img/menu/soups/tcs.jpg" alt="product">
+                </div>
+                <div class="sb-card-tp">
+                  <h4 class="sb-card-title">Thai Chicken Soup</h4>
+                  <div class="sb-price"><sub></sub></div>
+                </div>
+                <div class="sb-description">
+                  <p class="sb-text sb-mb-15"><span>regular- $ 5.99 <br> large- $ 9.99</span></p>
+                  <ul class="sb-stars">
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><span>(5 ratings)</span></li>
+                  </ul>
+                </div>
+              </a>
+            </div>
+            <!-- SOUPS end-->
+
+            <!-- PIDES strat-->
+            <div class="sb-grid-item sb-item-25 pides">
+              <a data-fancybox="menu" data-no-swup href="img/menu/pides/cp.jpg" class="sb-menu-item sb-mb-30">
+                <div class="sb-cover-frame">
+                  <img src="img/menu/pides/cp.jpg" alt="product">
+                </div>
+                <div class="sb-card-tp">
+                  <h4 class="sb-card-title">Cheese Pide</h4>
+                  <div class="sb-price"><sub>$</sub> 8.00</div>
+                </div>
+                <div class="sb-description">
+                  <ul class="sb-stars">
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li class="sb-empty"><i class="fas fa-star"></i></li>
+                    <li><span>(4 ratings)</span></li>
+                  </ul>
+                </div>
+              </a>
+            </div>
+            <div class="sb-grid-item sb-item-25 pides">
+              <a data-fancybox="menu" data-no-swup href="img/menu/pides/vgp.jpg" class="sb-menu-item sb-mb-30">
+                <div class="sb-cover-frame">
+                  <img src="img/menu/pides/vgp.jpg" alt="product">
+                </div>
+                <div class="sb-card-tp">
+                  <h4 class="sb-card-title">V Gourmet Pide</h4>
+                  <div class="sb-price"><sub>$</sub> 8.00</div>
+                </div>
+                <div class="sb-description">
+                  <ul class="sb-stars">
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li class="sb-empty"><i class="fas fa-star"></i></li>
+                    <li><span>(1 ratings)</span></li>
+                  </ul>
+                </div>
+              </a>
+            </div>
+            <div class="sb-grid-item sb-item-25 pides">
+              <a data-fancybox="menu" data-no-swup href="img/menu/pides/cpp.jpg" class="sb-menu-item sb-mb-30">
+                <div class="sb-cover-frame">
+                  <img src="img/menu/pides/cpp.jpg" alt="product">
+                </div>
+                <div class="sb-card-tp">
+                  <h4 class="sb-card-title">Chicken Pineapple Pide</h4>
+                  <div class="sb-price"><sub>$</sub> 8.00</div>
+                </div>
+                <div class="sb-description">
+                  <ul class="sb-stars">
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><span>(5 ratings)</span></li>
+                  </ul>
+                </div>
+              </a>
+            </div>
+            <div class="sb-grid-item sb-item-25 pides">
+              <a data-fancybox="menu" data-no-swup href="img/menu/pides/cap.jpg" class="sb-menu-item sb-mb-30">
+                <div class="sb-cover-frame">
+                  <img src="img/menu/pides/cap.jpg" alt="product">
+                </div>
+                <div class="sb-card-tp">
+                  <h4 class="sb-card-title">Chicken Aioli Pide</h4>
+                  <div class="sb-price"><sub>$</sub> 8.00</div>
+                </div>
+                <div class="sb-description">
+                  <ul class="sb-stars">
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li class="sb-empty"><i class="fas fa-star"></i></li>
+                    <li><span>(2 ratings)</span></li>
+                  </ul>
+                </div>
+              </a>
+            </div>
+            <!-- PIDES end-->
+
+            <!-- MAINS strat-->
+            <div class="sb-grid-item sb-item-25 mains">
+              <a data-fancybox="menu" data-no-swup href="img/menu/mains/mar.jpg" class="sb-menu-item sb-mb-30">
+                <div class="sb-cover-frame">
+                  <img src="img/menu/mains/mar.jpg" alt="product">
+                </div>
+                <div class="sb-card-tp">
+                  <h4 class="sb-card-title">Meat and Rice</h4>
+                  <div class="sb-price"><sub>$</sub> 12.00</div>
+                </div>
+                <div class="sb-description">
+                  <p class="sb-text sb-mb-15"><span>basmati rice served with meat along with turkish seasoning for a
+                      mouthwatering flavour</span>.</p>
+                  <ul class="sb-stars">
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li class="sb-empty"><i class="fas fa-star"></i></li>
+                    <li><span>(2 ratings)</span></li>
+                  </ul>
+                </div>
+              </a>
+            </div>
+            <div class="sb-grid-item sb-item-25 mains">
+              <a data-fancybox="menu" data-no-swup href="img/menu/mains/mb.jpg" class="sb-menu-item sb-mb-30">
+                <div class="sb-cover-frame">
+                  <img src="img/menu/mains/mb.jpg" alt="product">
+                </div>
+                <div class="sb-card-tp">
+                  <h4 class="sb-card-title">Meat Balls</h4>
+                  <div class="sb-price"><sub>$</sub> 15.90</div>
+                </div>
+                <div class="sb-description">
+                  <p class="sb-text sb-mb-15"><span>your choice of meat balls served with 2 sauce options and optional
+                      extra toppings</span>.</p>
+                  <ul class="sb-stars">
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li class="sb-empty"><i class="fas fa-star"></i></li>
+                    <li><span>(3 ratings)</span></li>
+                  </ul>
+                </div>
+              </a>
+            </div>
+            <div class="sb-grid-item sb-item-25 mains">
+              <a data-fancybox="menu" data-no-swup href="img/menu/mains/mlbb.jpg" class="sb-menu-item sb-mb-30">
+                <div class="sb-cover-frame">
+                  <img src="img/menu/mains/mlbb.jpg" alt="product">
+                </div>
+                <div class="sb-card-tp">
+                  <h4 class="sb-card-title">Meat Lovers Big Bowl</h4>
+                  <div class="sb-price"><sub>$</sub> 20.00</div>
+                </div>
+                <div class="sb-description">
+                  <p class="sb-text sb-mb-15"><span>your choice of meat with 2 x dips and optional extra toppings.
+                      <br><br></span></p>
+                  <ul class="sb-stars">
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><span>(1 ratings)</span></li>
+                  </ul>
+                </div>
+              </a>
+            </div>
+            <div class="sb-grid-item sb-item-25 mains">
+              <a data-fancybox="menu" data-no-swup href="img/menu/mains/mp.jpg" class="sb-menu-item sb-mb-30">
+                <div class="sb-cover-frame">
+                  <img src="img/menu/mains/mp.jpg" alt="product">
+                </div>
+                <div class="sb-card-tp">
+                  <h4 class="sb-card-title">Mixed Platter</h4>
+                  <div class="sb-price"><sub>$</sub> 16.00</div>
+                </div>
+                <div class="sb-description">
+                  <p class="sb-text sb-mb-15"><span>make your own platter. choice of meat, salad, bread type and sauce
+                      along with optional extra toppings</span>.</p>
+                  <ul class="sb-stars">
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li class="sb-empty"><i class="fas fa-star"></i></li>
+                    <li><span>(8 ratings)</span></li>
+                  </ul>
+                </div>
+              </a>
+            </div>
+            <div class="sb-grid-item sb-item-25 mains">
+              <a data-fancybox="menu" data-no-swup href="img/menu/mains/cnc.jpg" class="sb-menu-item sb-mb-30">
+                <div class="sb-cover-frame">
+                  <img src="img/menu/mains/cnc.jpg" alt="product">
+                </div>
+                <div class="sb-card-tp">
+                  <h4 class="sb-card-title">Chicken n Chips</h4>
+                  <div class="sb-price"><sub></sub></div>
+                </div>
+                <div class="sb-description">
+                  <p class="sb-text sb-mb-15"><span>12pcs- $4.99<br>24pcs-6.99 <br><br></span></p>
+                  <ul class="sb-stars">
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li class="sb-empty"><i class="fas fa-star"></i></li>
+                    <li class="sb-empty"><i class="fas fa-star"></i></li>
+                    <li><span>(6 ratings)</span></li>
+                  </ul>
+                </div>
+              </a>
+            </div>
+            <!-- MAINS end-->
+
+            <!-- VEGETARIAN strat-->
+            <div class="sb-grid-item sb-item-25 vegetarian">
+              <a data-fancybox="menu" data-no-swup href="img/menu/vegetarian/fw.jpg" class="sb-menu-item sb-mb-30">
+                <div class="sb-cover-frame">
+                  <img src="img/menu/vegetarian/fw.jpg" alt="product">
+                </div>
+                <div class="sb-card-tp">
+                  <h4 class="sb-card-title">Falafel</h4>
+                  <div class="sb-price"><sub>$</sub> 10.99</div>
+                </div>
+                <div class="sb-description">
+                  <ul class="sb-stars">
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><span>(4 ratings)</span></li>
+                  </ul>
+                </div>
+              </a>
+            </div>
+            <div class="sb-grid-item sb-item-25 vegetarian">
+              <a data-fancybox="menu" data-no-swup href="img/menu/vegetarian/vpw.jpg" class="sb-menu-item sb-mb-30">
+                <div class="sb-cover-frame">
+                  <img src="img/menu/vegetarian/vpw.jpg" alt="product">
+                </div>
+                <div class="sb-card-tp">
+                  <h4 class="sb-card-title">Vege Pati Wrap</h4>
+                  <div class="sb-price"><sub>$</sub> 10.99</div>
+                </div>
+                <div class="sb-description">
+                  <ul class="sb-stars">
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li class="sb-empty"><i class="fas fa-star"></i></li>
+                    <li><span>(1 ratings)</span></li>
+                  </ul>
+                </div>
+              </a>
+            </div>
+            <div class="sb-grid-item sb-item-25 vegetarian">
+              <a data-fancybox="menu" data-no-swup href="img/menu/vegetarian/hbw.jpg" class="sb-menu-item sb-mb-30">
+                <div class="sb-cover-frame">
+                  <img src="img/menu/vegetarian/hbw.jpg" alt="product">
+                </div>
+                <div class="sb-card-tp">
+                  <h4 class="sb-card-title">Hash Brown Wrap</h4>
+                  <div class="sb-price"><sub>$</sub> 10.99</div>
+                </div>
+                <div class="sb-description">
+                  <ul class="sb-stars">
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li class="sb-empty"><i class="fas fa-star"></i></li>
+                    <li><span>(3 ratings)</span></li>
+                  </ul>
+                </div>
+              </a>
+            </div>
+            <div class="sb-grid-item sb-item-25 vegetarian">
+              <a data-fancybox="menu" data-no-swup href="img/menu/vegetarian/hbfw.jpg" class="sb-menu-item sb-mb-30">
+                <div class="sb-cover-frame">
+                  <img src="img/menu/vegetarian/hbfw.jpg" alt="product">
+                </div>
+                <div class="sb-card-tp">
+                  <h4 class="sb-card-title">Hash Brown n Falafel Wrap</h4>
+                  <div class="sb-price"><sub>$</sub> 10.99</div>
+                </div>
+                <div class="sb-description">
+                  <ul class="sb-stars">
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><span>(1 ratings)</span></li>
+                  </ul>
+                </div>
+              </a>
+            </div>
+            <!-- VEGETARIAN end-->
+
+            <!-- DRINKS-DESSERTS strat-->
+            <div class="sb-grid-item sb-item-25 drinks-desserts">
+              <a data-fancybox="menu" data-no-swup href="img/menu/drinks-desserts/csd.jpg" class="sb-menu-item sb-mb-30">
+                <div class="sb-cover-frame">
+                  <img src="img/menu/drinks-desserts/csd.jpg" alt="product">
+                </div>
+                <div class="sb-card-tp">
+                  <h4 class="sb-card-title">Can Soft Drinks</h4>
+                  <div class="sb-price"><sub>$</sub> 2.50</div>
+                </div>
+                <div class="sb-description">
+                  <p class="sb-text sb-mb-15"><span><br></span></p>
+                  <ul class="sb-stars">
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li class="sb-empty"><i class="fas fa-star"></i></li>
+                    <li><span>(3 ratings)</span></li>
+                  </ul>
+                </div>
+              </a>
+            </div>
+            <div class="sb-grid-item sb-item-25 drinks-desserts">
+              <a data-fancybox="menu" data-no-swup href="img/menu/drinks-desserts/wb.jpg" class="sb-menu-item sb-mb-30">
+                <div class="sb-cover-frame">
+                  <img src="img/menu/drinks-desserts/wb.jpg" alt="product">
+                </div>
+                <div class="sb-card-tp">
+                  <h4 class="sb-card-title">Water Bottel</h4>
+                  <div class="sb-price"><sub>$</sub> 2.50</div>
+                </div>
+                <div class="sb-description">
+                  <p class="sb-text sb-mb-15"><span>450ml</span></p>
+                  <ul class="sb-stars">
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><span>(4 ratings)</span></li>
+                  </ul>
+                </div>
+              </a>
+            </div>
+            <div class="sb-grid-item sb-item-25 drinks-desserts">
+              <a data-fancybox="menu" data-no-swup href="img/menu/drinks-desserts/bsd.jpg" class="sb-menu-item sb-mb-30">
+                <div class="sb-cover-frame">
+                  <img src="img/menu/drinks-desserts/bsd.jpg" alt="product">
+                </div>
+                <div class="sb-card-tp">
+                  <h4 class="sb-card-title">Bottel Soft Drinks 1.25L</h4>
+                  <div class="sb-price"><sub>$</sub> 4.50</div>
+                </div>
+                <div class="sb-description">
+                  <p class="sb-text sb-mb-15"><span>1.25L drinks</span></p>
+                  <ul class="sb-stars">
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li class="sb-empty"><i class="fas fa-star"></i></li>
+                    <li><span>(2 ratings)</span></li>
+                  </ul>
+                </div>
+              </a>
+            </div>
+            <div class="sb-grid-item sb-item-25 drinks-desserts">
+              <a data-fancybox="menu" data-no-swup href="img/menu/drinks-desserts/slu.jpg" class="sb-menu-item sb-mb-30">
+                <div class="sb-cover-frame">
+                  <img src="img/menu/drinks-desserts/slu.jpg" alt="product">
+                </div>
+                <div class="sb-card-tp">
+                  <h4 class="sb-card-title">Slushy</h4>
+                  <div class="sb-price"><sub>$</sub> 3.50</div>
+                </div>
+                <div class="sb-description">
+                  <p class="sb-text sb-mb-15"><span>450ml</span></p>
+                  <ul class="sb-stars">
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><span>(1 ratings)</span></li>
+                  </ul>
+                </div>
+              </a>
+            </div>
+            <div class="sb-grid-item sb-item-25 drinks-desserts">
+              <a data-fancybox="menu" data-no-swup href="img/menu/drinks-desserts/td.jpg" class="sb-menu-item sb-mb-30">
+                <div class="sb-cover-frame">
+                  <img src="img/menu/drinks-desserts/td.jpg" alt="product">
+                </div>
+                <div class="sb-card-tp">
+                  <h4 class="sb-card-title">4PK Turkish Delight</h4>
+                  <div class="sb-price"><sub>$</sub> 3.00</div>
+                </div>
+                <div class="sb-description">
+                  <p class="sb-text sb-mb-15"><span><br></span></p>
+                  <ul class="sb-stars">
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li class="sb-empty"><i class="fas fa-star"></i></li>
+                    <li class="sb-empty"><i class="fas fa-star"></i></li>
+                    <li><span>(6 ratings)</span></li>
+                  </ul>
+                </div>
+              </a>
+            </div>
+            <div class="sb-grid-item sb-item-25 drinks-desserts">
+              <a data-fancybox="menu" data-no-swup href="img/menu/drinks-desserts/bak.jpg" class="sb-menu-item sb-mb-30">
+                <div class="sb-cover-frame">
+                  <img src="img/menu/drinks-desserts/bak.jpg" alt="product">
+                </div>
+                <div class="sb-card-tp">
+                  <h4 class="sb-card-title">Baklava</h4>
+                  <div class="sb-price"><sub>$</sub> 6.90</div>
+                </div>
+                <div class="sb-description">
+                  <p class="sb-text sb-mb-15"><span>sweet dessert pastry- 6pcs</span></p>
+                  <ul class="sb-stars">
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><span>(2 ratings)</span></li>
+                  </ul>
+                </div>
+              </a>
+            </div>
+            <div class="sb-grid-item sb-item-25 drinks-desserts">
+              <a data-fancybox="menu" data-no-swup href="img/menu/drinks-desserts/ls.jpg" class="sb-menu-item sb-mb-30">
+                <div class="sb-cover-frame">
+                  <img src="img/menu/drinks-desserts/ls.jpg" alt="product">
+                </div>
+                <div class="sb-card-tp">
+                  <h4 class="sb-card-title">Large Shakes</h4>
+                  <div class="sb-price"><sub>$</sub> 6.00</div>
+                </div>
+                <div class="sb-description">
+                  <p class="sb-text sb-mb-15"><span><br></span></p>
+                  <ul class="sb-stars">
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><span>(3 ratings)</span></li>
+                  </ul>
+                </div>
+              </a>
+            </div>
+            <!-- DRINKS-DESSERTS end-->
+          </div>
+        </div>
+      </section>
+      <!-- menu end -->
+
+      <!-- promo -->
+      <section class="sb-p-0-60">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="sb-promo-frame sb-mb-30">
+                <div class="sb-promo-content">
+                  <div class="sb-text-frame">
+                    <h3 class="sb-mb-10"> <b class="sb-h2">50</b> <sup>%</sup></h3>
+                    <h3 class="sb-mb-15">Discount for all* shakes!</h3><br>
+                    <!-- button -->
+                    <a href="product.html" class="sb-btn sb-ppc">
+                      <span class="sb-icon">
+                        <img src="img/ui/icons/arrow.svg" alt="icon">
+                      </span>
+                      <span>Get it now</span>
+                    </a>
+                    <!-- button end -->
+                  </div>
+                  <div class="sb-image-frame">
+                    <div class="sb-illustration-4">
+                      <img src="img/illustrations/shakes.png" alt="shakes" class="sb-burger">
+                      <div class="sb-cirkle-1"></div>
+                      <div class="sb-cirkle-2"></div>
+                      <div class="sb-cirkle-3"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="sb-promo-frame sb-mb-30">
+                <div class="sb-promo-content">
+                  <div class="sb-text-frame">
+                    <h3 class="sb-mb-15">Visit SipNBite and get your coffee*</h3>
+                    <h3 class="sb-mb-10"><b class="sb-h2">For free!</b></h3>
+                    <!-- button -->
+                    <a href="product.html" class="sb-btn sb-ppc">
+                      <span class="sb-icon">
+                        <img src="img/ui/icons/arrow.svg" alt="icon">
+                      </span>
+                      <span>Get it now</span>
+                    </a>
+                    <!-- button end -->
+                  </div>
+                  <div class="sb-image-frame">
+                    <div class="sb-illustration-5">
+                      <img src="img/illustrations/cup.png" alt="cup" class="sb-cup">
+                      <div class="sb-cirkle-1"></div>
+                      <div class="sb-cirkle-2"></div>
+                      <div class="sb-cirkle-3"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- promo end -->
+
+      <!-- footer -->
+      <footer>
+        <div class="container">
+          <div class="sb-footer-frame">
+            <a href="index.html" class="sb-logo-frame">
+              <!-- logo img -->
+              <img src="img/ui/logo.png" alt="SipNBite">
+            </a>
+            <ul class="sb-social">
+              <li><a href="#."><i class="fab fa-twitter"></i></a></li>
+              <li><a href="#."><i class="fab fa-instagram"></i></a></li>
+              <li><a href="#."><i class="fab fa-facebook-f"></i></a></li>
+              <li><a href="#."><i class="fab fa-youtube"></i></a></li>
+            </ul>
+            <div class="sb-copy">Copyright &copy; 2022 SipNBite. All Rights Reserved.</div>
+          </div>
+        </div>
+      </footer>
+      <!-- footer end -->
+
+    </div>
+    <!-- dynamic content end -->
+
+  </div>
+  <!-- app wrapper end -->
+
+  <!-- jquery js -->
+  <script src="js/plugins/jquery.min.js"></script>
+  <!-- smooth scroll js -->
+  <script src="js/plugins/smooth-scroll.js"></script>
+  <!-- swup js -->
+  <script src="js/plugins/swup.min.js"></script>
+  <!-- swiper js -->
+  <script src="js/plugins/swiper.min.js"></script>
+  <!-- datepicker js -->
+  <script src="js/plugins/datepicker.js"></script>
+  <!-- isotope js -->
+  <script src="js/plugins/isotope.js"></script>
+  <!-- sticky -->
+  <script src="js/plugins/sticky.js"></script>
+  <!-- mapbox js -->
+  <script src="js/plugins/mapbox.min.js"></script>
+  <!-- fancybox js -->
+  <script src="js/plugins/fancybox.min.js"></script>
+  <!-- SipNBite js -->
+  <script src="js/main.js"></script>
+
+</body>
+
+
+</html>
